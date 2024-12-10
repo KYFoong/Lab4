@@ -1,0 +1,85 @@
+body{
+    margin: 0%;
+    background-color: #f8f8f8;
+}
+
+table{
+    width: 80%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+td{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.leftPad{
+    padding-left: 20px;
+}
+
+.topBar{
+    background-color: #440381;
+    margin: 0%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.topBar a{
+    color: white;
+    margin-left: auto;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: large;
+}
+
+.topBar a:hover{
+    color: red;
+}
+
+h1{
+    padding-left: 20px;
+    color: white;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    display: grid; 
+    gap: 10px; 
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select{
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"]{
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #440381;
+    color: white;
+    transition-duration: 0.5s;
+}
